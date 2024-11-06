@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="shortcut icon" href="../logo.png" type="image/png" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link title="Fuente Web">
+</head>
+<body>
+    <div class="carGame">
+        <div class="score"></div>
+        <div class="startScreen">
+            <h1>Juego Carrera Coches | Fuente Web</h1>
+            <p>Presione aquí para comenzar<br> Si chocas, responde para seguir...</p>
+        </div>
+        <div class="gameArea"></div>
+    </div>
+
+    <!-- Controles de flechas para móvil -->
+    <div class="mobile-controls">
+        <button class="arrow up" onclick="moveCar('ArrowUp')">▲</button>
+        <div class="arrow-buttons">
+            <button class="arrow left" onclick="moveCar('ArrowLeft')">◀</button>
+            <button class="arrow down" onclick="moveCar('ArrowDown')">▼</button>
+            <button class="arrow right" onclick="moveCar('ArrowRight')">▶</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
